@@ -24,12 +24,12 @@ export default class Car {
     <div class="col-md-3 col-sm-12 my-3">
       <div class="car bg-light shadow">
           <img src="${this.imgUrl}" class="w-100" alt="${this.make} ${this.model} car image">
-          <div class="p-3">
+          <div class="p-3 text-center">
               <div class="text-center">
                   <p><b>${this.year} - ${this.make} - ${this.model}</b></p>
               </div>
               <p>${this.description}</p>
-              <p><em>$${this.price}</em></p>
+              <p><em>Price: $${this.price}</em></p>
           </div>
       </div>
     </div>

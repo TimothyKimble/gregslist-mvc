@@ -13,12 +13,12 @@ export default class House {
     <div class="col-md-3 col-sm-12 my-3">
       <div class="house bg-light shadow">
           <img src="${this.imgUrl}" class="w-100" alt="${this.year} ${this.bath} house image">
-          <div class="p-3">
+          <div class="p-3 text-center">
               <div class="text-center">
                   <p><b>Year: ${this.year} - Beds: ${this.bed} - Baths: ${this.bath}</b></p>
               </div>
               <p>${this.description}</p>
-              <p><em>$${this.price}</em></p>
+              <p><em>Price: $${this.price}</em></p>
           </div>
       </div>
     </div>
