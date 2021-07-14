@@ -20,7 +20,7 @@ export default class JobsController {
   addJob() {
     event.preventDefault()
     let form = event.target
-    let home = {
+    let work = {
       name: form.name.value,
       time: form.time.value,
       pay: form.pay.value,
