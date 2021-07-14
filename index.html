@@ -35,8 +35,8 @@
 
 <body class="debug">
     <header>
-        <nav class="navbar navbar-light navbar-expand bg-secondary text-light">
-            <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-light navbar-expand bg-info text-light">
+            <a class="navbar-brand text-light" href="#">
                 <img src="assets/img/logo.png" width="45" height="45" alt="" loading="lazy">
                 <span class="ml-2">Gregslist</span>
             </a>
@@ -132,10 +132,10 @@
                 </form>
             </div>
         </div>
-        </div>
+
 
         </div>
-        <div class="row d-flex flex-wrap" id="cars">
+        <div class="row d-flex flex-wrap " id="cars">
             <!-- <div class="col-md-3 col-sm-2 my-3">
                 <div class="car bg-light shadow">
                     <img src="//placehold.it/200x200" class="w-100" alt="car">
@@ -159,31 +159,31 @@
                 </div>
                 <form class="d-flex flex-wrap justify-content-center" onsubmit="app.housesController.addHouse()">
                     <div class="form-group d-flex flex-column">
-                        <label for="year">Year Built</label>
+                        <label class='m-0' for="year">Year Built</label>
                         <input type="text" name="year" id="year" class="form-control" placeholder="Year Built..."
                             required>
                     </div>
                     <div class="form-group d-flex flex-column">
-                        <label for="bed">Bed</label>
+                        <label class='m-0' for="bed">Bed</label>
                         <input type="text" name="bed" id="bed" class="form-control" placeholder="Bed..." required>
                     </div>
                     <div class="form-group d-flex flex-column">
-                        <label for="bath">Bath</label>
+                        <label class='m-0' for="bath">Bath</label>
                         <input type="number" name="bath" id="bath" class="form-control" placeholder="Bath..." required
                             min="1">
                     </div>
                     <div class="form-group d-flex flex-column">
-                        <label for="price">Price</label>
+                        <label class='m-0' for="price">Price</label>
                         <input type="number" name="price" id="price" class="form-control" placeholder="Price..."
                             required>
                     </div>
                     <div class="form-group d-flex flex-column">
-                        <label for="imgUrl">Image Url</label>
+                        <label class="m-0" for="imgUrl">Image Url</label>
                         <input type="text" name="imgUrl" id="imgUrl" class="form-control" placeholder="Url...">
                     </div>
                     <div class="form-group d-flex flex-column">
-                        <label for="description">Description</label>
-                        <div class="d-flex align-items-center">
+                        <label class='m-0' for="description">Description</label>
+                        <div class="d-flex align-self-center">
                             <input type="text" name="description" id="description" class="form-control"
                                 placeholder="Description..." maxlength="240">
                             <button type="submit" class="btn btn-outline-success">Add</button>
@@ -196,7 +196,8 @@
             </div>
         </div>
 
-        <div class="row d-flex flex-wrap" id="houses">
+
+        <div class="row d-flex flex-wrap " id="houses">
         </div>
 
 
@@ -204,9 +205,9 @@
 
 
     </main>
-    <footer class="bg-dark text-light">
+    <footer class="bg-info text-light">
         <div class="text-center">
-            <p><small>Made with love by Codeworks</small></p>
+            <p><small>Made with 🍕 by Codeworks</small></p>
         </div>
     </footer>
     <script src="app/main.js" type="module"></script>
